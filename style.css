@@ -1,0 +1,23 @@
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+
+.all-button{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
