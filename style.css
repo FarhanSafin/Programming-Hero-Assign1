@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -10,27 +10,24 @@ h1{
     text-align: center;
 }
 .orange{
-    color: orange;
+    color: #ffad5a;
 }
 
 .red{
-    color: red;
+    color: #ff5959;
 }
 
+.white{
+    color: whitesmoke;
+}
 
 .all-button{
     text-decoration: none;
-    background-color: red;
+    background-color: #ff5959;
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 15px;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
 }
 
 .flex{
@@ -53,7 +50,7 @@ footer{
 }
 
 .f-box{
-    background-color: antiquewhite;
+    background-color: #edf5f6;
     margin-left: 15%;
     margin-right: 2%;
     padding-left: 2%;
@@ -62,14 +59,14 @@ footer{
 }
 
 .s-box{
-    background-color: tomato;
+    background-color: #ffeeee;
     margin-right: 2%;
     padding-left: 2%;
     border-radius: 15px;
 }
 
 .t-box{
-    background-color: rgb(162, 175, 167);
+    background-color: #fff4d6;
     margin-right: 2%;
     padding-left: 2%;
     border-radius: 15px;
@@ -106,7 +103,6 @@ footer{
     background-position-x: 10%;
 }
 
-
 .fourth-section{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -114,6 +110,20 @@ footer{
     background-position-y: 95%;
     background-position-x: 85%;
     height: 450px;
+}
+
+.fifth-section{
+    margin-top: 5%;
+}
+
+.sixth-section{
+    background-color: bisque;
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-y: 60%;
+    background-position-x: 15%;
+    margin-bottom: -0.25%;
 }
 
 .develop-section{
@@ -126,7 +136,6 @@ footer{
     width: 50%;
 }
 
-
 .container {
   background-color: rgb(121, 104, 104);
   margin-left: 15%;
@@ -137,16 +146,17 @@ footer{
 
 .skills {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: white;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.python {width: 60%; background-color: #808080;}
-
+.html {width: 95%; background-color: #da995c;}
+.css {width: 90%; background-color: #7c1820;}
+.js {width: 80%; background-color: #ff5959;}
+.python {width: 75%; background-color: #808080;}
+.c {width: 55%; background-color: #b44343;}
+.matlab {width: 35%; background-color: #4e2a2a;}
 
 .lang-name{
     text-align: center;
@@ -158,45 +168,37 @@ footer{
         padding-left: 15%;
 }
 
-.sixth-section{
-    background-color: bisque;
-    background-image: url(images/shapes/shape-2.png);
-    background-repeat: no-repeat;
-    background-size: 12%;
-    background-position-y: 60%;
-    background-position-x: 15%;
-    margin-bottom: -0.25%;
-}
-hr.new5 {
+hr{
     margin-top: 5%;
-    border: 5px solid orange;
+    border: 5px solid #ffad5a;
     border-radius: 5px;
   }
 
-  .input-box{
+.input-box{
       padding: 0.5%;
 
   }
 
-
   .submit-button{
     text-decoration: none;
     margin-left: 5%;
-    background-color: rgb(212, 111, 111);
+    background-color: #ff5959;
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 15px;
 }
 
-
 .bor-des{
     border-radius: 0.5%;
     margin-right: 10%;
-    border-left: 2px solid;
+    border-left: 2px solid #ff5959;
 }
 
 footer{
+    background-color: black;
+    color: white;
+    text-align: center;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
