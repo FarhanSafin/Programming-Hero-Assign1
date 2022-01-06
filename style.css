@@ -13,6 +13,14 @@ h1{
     color: #ffad5a;
 }
 
+.text-color-miss{
+    color: #13103a;
+}
+
+.text-color{
+    color: #333333;
+}
+
 .red{
     color: #ff5959;
 }
@@ -196,7 +204,7 @@ hr{
 }
 
 footer{
-    background-color: black;
+    background-color: #0b0d17;
     color: white;
     text-align: center;
     padding-top: 2.5%;
