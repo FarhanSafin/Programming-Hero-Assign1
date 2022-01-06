@@ -84,16 +84,119 @@ footer{
     height: 0%;
 }
 
-.close{
+.code-section{
     width: 50%;
     padding-top: 2.5%;
 }
 
-.close img{
+.code-section img{
     padding-left: 30%;
     width: 50%;
 }
 
 .develop-margin{
-    margin-right: 15%;
+    margin-right: 20%;
+}
+
+.third-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-y: 40%;
+    background-position-x: 10%;
+}
+
+
+.fourth-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-y: 95%;
+    background-position-x: 85%;
+    height: 450px;
+}
+
+.develop-section{
+    width: 50%;
+    padding-top: 2.5%;
+    padding-left: 15%;
+}
+
+.develop-section img{
+    width: 50%;
+}
+
+
+.container {
+  background-color: rgb(121, 104, 104);
+  margin-left: 15%;
+  margin-right: 13%;
+  border-style: inset;
+
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.python {width: 60%; background-color: #808080;}
+
+
+.lang-name{
+    text-align: center;
+}
+
+.contact{
+        width: 50%;
+        padding-top: 2.5%;
+        padding-left: 15%;
+}
+
+.sixth-section{
+    background-color: bisque;
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-y: 60%;
+    background-position-x: 15%;
+    margin-bottom: -0.25%;
+}
+hr.new5 {
+    margin-top: 5%;
+    border: 5px solid orange;
+    border-radius: 5px;
+  }
+
+  .input-box{
+      padding: 0.5%;
+
+  }
+
+
+  .submit-button{
+    text-decoration: none;
+    margin-left: 5%;
+    background-color: rgb(212, 111, 111);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+
+.bor-des{
+    border-radius: 0.5%;
+    margin-right: 10%;
+    border-left: 2px solid;
+}
+
+footer{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
